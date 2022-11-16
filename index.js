@@ -36,7 +36,9 @@ function addGuest3() {
 }
 
 function reset() {
-    scoreHome.textContent = count
-    scoreGuest.textContent = count 
+    countHome = 0
+    countGuest = 0
+    scoreHome.textContent = countHome 
+    scoreGuest.textContent = countGuest
 }
     
